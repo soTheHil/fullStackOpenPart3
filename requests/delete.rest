@@ -1,0 +1,22 @@
+GET http://localhost:3001/api/persons/6419aeab38cffdc2e1dfab2b
+###
+GET http://localhost:3001/
+###
+DELETE http://localhost:3001/api/persons/6419aeab38cffdc2e1dfab2b
+###
+POST http://localhost:3001/api/persons
+Content-Type: application/json
+
+ { 
+    "name": "Ada Lovelace",
+    "number": "9000-99384"
+}
+###
+PUT http://localhost:3001/api/persons/641ae8b7319e24c3ad085581
+Content-Type: application/json
+
+ { 
+    "name": "Jake Zoo",
+    "number": "00000-99999"
+}
+
